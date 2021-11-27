@@ -1,0 +1,42 @@
+.logoimg {
+  width: 20%;
+}
+.nav-bar {
+  height: 8em;
+  display: flex;
+  background-color: rgb(237 198 199 / 49%);
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.navlist {
+  display: flex;
+  margin-bottom: 1em;
+  padding: 2em;
+  font-size: 1.5em;
+  list-style: none;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(149 21 86);
+  text-decoration: none;
+}
+
+.navlist:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition-duration: 0.4ms;
+}
+a {
+  text-decoration: none;
+  color: rgb(149 21 86);
+}
+.logout {
+  color: rgb(149 21 86);
+  font-size: 2em;
+}
+.logout:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition-duration: 0.4ms;
+}

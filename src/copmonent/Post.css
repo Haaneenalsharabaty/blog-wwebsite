@@ -1,0 +1,12 @@
+.post {
+  padding: 1em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+  border: dashed palevioletred 1px;
+  width: 50%;
+  justify-content: center;
+  color: rgb(149 21 86);
+  font-family: "Times New Roman", Times, serif;
+}

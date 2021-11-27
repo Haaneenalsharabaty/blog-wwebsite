@@ -1,0 +1,57 @@
+/* intro  */
+
+.Home {
+  display: grid;
+  grid-template-columns: 80%;
+
+  background: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.096)
+    ),
+    url("./background.jpg");
+
+  background-size: cover;
+}
+.myimage img {
+  margin-top: 30%;
+  width: 60%;
+  height: 70%;
+  border-radius: 10%;
+}
+.myimage img:hover {
+  cursor: pointer;
+
+  transform: scale(1.5);
+}
+.text {
+  width: 70%;
+  /* height: 75%; */
+  font-family: "Italianno", cursive;
+  color: rgb(149 21 86);
+  border-radius: 10%;
+  /* margin-top: 4%; */
+  margin-left: 30%;
+  background: linear-gradient(
+    rgb(233 192 194),
+    rgba(187, 171, 187, 0.7),
+    rgb(255, 255, 255, 0.9)
+  );
+}
+.text h1 {
+  font-size: 4em;
+
+  padding: 0.5em;
+  font-weight: bolder;
+}
+.text h3 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+}
+.text p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 0.15;
+}
